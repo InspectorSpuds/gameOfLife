@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="800" prefWidth="800" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+       <MenuBar BorderPane.alignment="CENTER">
+           <Menu mnemonicParsing="false" text="Settings">
+               <MenuItem mnemonicParsing="false" text="Close" />
+               <RadioMenuItem mnemonicParsing="false" text="Unspecified Action" />
+           </Menu>
+           <Menu mnemonicParsing="false" text="Edit">
+               <MenuItem mnemonicParsing="false" text="Delete" />
+           </Menu>
+           <Menu mnemonicParsing="false" text="Help">
+               <MenuItem mnemonicParsing="false" text="About" />
+           </Menu>
+       </MenuBar>
+   </top>
+   <center>
+       <ScrollPane prefHeight="721.0" prefWidth="800.0">
+           <GridPane fx:id="grid" alignment="CENTER" prefHeight="721.0" prefWidth="800.0" BorderPane.alignment="CENTER" />
+       </ScrollPane>
+   </center>
+   <bottom>
+      <VBox prefHeight="100.0" prefWidth="800.0" style="-fx-background-color: RED;" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
