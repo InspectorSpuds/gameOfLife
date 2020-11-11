@@ -11,8 +11,8 @@ import java.util.concurrent.BlockingQueue;
     Purpose: represents the board state for the game of life
 */
 public class Board implements Runnable{
-    private BlockingQueue<HashSet<Square>> stateUpdates;
-    private HashSet<Square> nextState;
+    private BlockingQueue<HashSet> stateUpdates;
+    private HashSet nextState;
     public final int waitTime = 5;
     @Override
     public void run() {

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="800" prefWidth="800" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Comp.MainController">
+   <center>
+       <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="721.0" prefWidth="800.0">
+           <StackPane fx:id="draggable">
+               <GridPane fx:id="grid" alignment="CENTER" prefHeight="721.0" prefWidth="800.0" BorderPane.alignment="CENTER" />
+           </StackPane>
+       </ScrollPane>
+   </center>
+   <bottom>
+       <VBox prefHeight="150.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+           <TilePane alignment="CENTER" prefHeight="200.0" prefWidth="200.0">
+               <ComboBox prefWidth="150.0"/>
+           </TilePane>
+       </VBox>
+   </bottom>
+</BorderPane>
