@@ -1,4 +1,4 @@
-package sample.Comp;
+package GameOfLife.Comp;
 
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;

@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="gameOfLife">
+    <output-path>$PROJECT_DIR$/out/artifacts/gameOfLife</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="GameOfLife.Main" />
+        <option name="description" value="Game of life usinga quadtree" />
+        <option name="height" value="800" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Game of Life" />
+        <option name="vendor" value="Ishan Parikh" />
+        <option name="version" value="1.0" />
+        <option name="width" value="800" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="gameOfLife.jar">
+        <element id="module-output" name="gameOfLife" />
+      </element>
+    </root>
+  </artifact>
+</component>
