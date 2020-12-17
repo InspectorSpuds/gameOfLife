@@ -10,19 +10,26 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class MainController implements Initializable, Runnable {
-    @FXML GridPane grid;
-    @FXML StackPane draggable;
+    @FXML GridPane grid; //the cell grid
+    @FXML StackPane draggable; //the super container for the grid
     private static QuadTree activeCells;
     private GameState state;
 
+    /*
+        Name: initialize()
+        Preconditions: URL Location, ResourceBundle Resources
+        Process: initializes the gui by seeding the grid and performing other
+        utility actions
+        Postconditions: none
+    */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         seedGrid();
-
     }
 
     @Override
     public void run() {
+
     }
 
 

@@ -7,7 +7,7 @@
    <center>
        <ScrollPane BorderPane.alignment="CENTER" fitToHeight="true" fitToWidth="true" prefHeight="721.0" prefWidth="800.0">
            <StackPane fx:id="draggable">
-               <GridPane fx:id="grid" alignment="CENTER" prefHeight="721.0" prefWidth="800.0" BorderPane.alignment="CENTER" />
+               <GridPane fx:id="grid" alignment="CENTER" prefHeight="720.0" prefWidth="800.0" BorderPane.alignment="CENTER" />
            </StackPane>
        </ScrollPane>
    </center>

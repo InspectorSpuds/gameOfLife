@@ -2,11 +2,11 @@ package GameOfLife.Comp;
 
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
-
 public class Cell extends Rectangle {
     private boolean alive = false;
-    public final int row;
-    private final int col;
+    public final int row; //y coordinate
+    private final int col; //x coordinate
+
     public Cell(int width, int height, int col, int row) {
         super(width,height);
         this.setFill(Color.WHITE);

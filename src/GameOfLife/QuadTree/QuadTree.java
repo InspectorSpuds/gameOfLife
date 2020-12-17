@@ -3,7 +3,6 @@ package GameOfLife.QuadTree;
 import GameOfLife.Comp.Cell;
 
 /*
-    @Author: Ishan Parikh
     class name: QuadTree
     Purpose: a quadtree ADT implementation for storing grid-based information in regions
     Data:
@@ -13,17 +12,30 @@ import GameOfLife.Comp.Cell;
  */
 public class QuadTree {
     public QuadTreeNode root;
+
     public void add(Cell cell){
+
+    }
+
+    private void traverse() {
 
     }
 
     public QuadTree() {
 
     }
-    class QuadTreeNode{
+    static class QuadTreeNode{
+        private int usedQuads =0;//amount of used quadrants in the quadtree node
+        private int rightX;
+        private int leftX;
+        private int topY;
+        private int bottomY;
+
         QuadTreeNode topLeft;
         QuadTreeNode topRight;
         QuadTreeNode bottomLeft;
         QuadTreeNode bottomRight;
+
+
     }
 }
